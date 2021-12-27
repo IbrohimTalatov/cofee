@@ -1,0 +1,118 @@
+
+@font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 400;
+    src: 
+         url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'), 
+         url('../fonts/fraunces-v10-latin-regular.woff') format('woff'); 
+  }
+
+  @font-face {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    src: 
+         url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'), 
+         url('../fonts/fraunces-v10-latin-900.woff') format('woff'); 
+  }
+
+*{
+    box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+.visually-hidden {
+	position: absolute ;
+	padding:0;
+	border:0;
+  margin: -1px;
+	height: 1px; 
+	width: 1px; 
+	overflow: hidden;
+}
+body{
+    font-family: "Fraunces" , Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+ 
+}
+.container{
+    width: 1240px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.header{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.header__list{
+    display: flex;
+    align-items: center ;
+}
+.header__logo{
+    margin-right: auto;
+}
+.header__taxt{
+    margin-left: 35px;
+}
+.header__taxt:hover{
+    color: #000;
+}
+.header__nav{
+    display: flex;
+    list-style: none;
+}
+.header__taxt{
+    text-decoration: none;
+    color: #83888F;
+}
+.main{
+    color: #fff;
+    width: 1200px;
+    height: 500px;
+    background-image: url(../img/Bitmap.png);
+    border-radius: 5px;
+}
+.main__item--list{
+    padding-left: 70px;
+    padding-top: 10px;
+}
+.main__title{
+    width: 500px;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+}
+.main__text{
+    width: 450px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+}
+.main__link{
+    text-decoration: none;
+    color: #fff;
+    background: #0E8784;
+    border-radius: 6px;
+    padding: 15px 30px;
+}
+.main__link:hover{
+    background-color: #66D2CF;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
